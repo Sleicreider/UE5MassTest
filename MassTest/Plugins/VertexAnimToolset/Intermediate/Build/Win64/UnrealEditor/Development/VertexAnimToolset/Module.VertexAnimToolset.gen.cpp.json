@@ -1,0 +1,17 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\intermediate\\build\\win64\\unrealeditor\\development\\vertexanimtoolset\\module.vertexanimtoolset.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\ue\\domtest\\masstest\\intermediate\\build\\win64\\masstesteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\intermediate\\build\\win64\\unrealeditor\\development\\vertexanimtoolset\\definitions.vertexanimtoolset.h",
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\intermediate\\build\\win64\\unrealeditor\\inc\\vertexanimtoolset\\vertexanimprofile.gen.cpp",
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\source\\vertexanimtoolset\\public\\vertexanimprofile.h",
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\intermediate\\build\\win64\\unrealeditor\\inc\\vertexanimtoolset\\vertexanimprofile.generated.h",
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\intermediate\\build\\win64\\unrealeditor\\inc\\vertexanimtoolset\\vertexanimtoolset.init.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

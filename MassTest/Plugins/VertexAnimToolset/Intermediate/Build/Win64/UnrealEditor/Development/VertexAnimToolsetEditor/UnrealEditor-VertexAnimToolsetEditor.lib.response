@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VertexAnimToolsetEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Projects\UE\DomTest\MassTest\Intermediate\Build\Win64\MassTestEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"D:\Projects\UE\DomTest\MassTest\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UnrealEditor\Development\VertexAnimToolsetEditor\Module.VertexAnimToolsetEditor.cpp.obj"
+"D:\Projects\UE\DomTest\MassTest\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UnrealEditor\Development\VertexAnimToolsetEditor\Default.rc2.res"
+/OUT:"D:\Projects\UE\DomTest\MassTest\Plugins\VertexAnimToolset\Intermediate\Build\Win64\UnrealEditor\Development\VertexAnimToolsetEditor\UnrealEditor-VertexAnimToolsetEditor.lib"

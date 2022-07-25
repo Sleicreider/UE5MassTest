@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VertexAnimToolsetEditor.cpp.obj": [
+			"VATEditorUtils.cpp.obj",
+			"VertexAnimToolsetEditor.cpp.obj",
+			"VertexAnimUtils.cpp.obj"
+		]
+	}
+}

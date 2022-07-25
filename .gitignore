@@ -1,0 +1,5 @@
+*.sln
+MassTest/.vs/
+MassTest/Binaries/
+MassTest/Saved/
+MassTest/Intermediate/

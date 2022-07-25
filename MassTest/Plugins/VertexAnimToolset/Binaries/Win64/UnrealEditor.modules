@@ -1,0 +1,8 @@
+{
+	"BuildId": "19505902",
+	"Modules": 
+	{
+		"VertexAnimToolset": "UnrealEditor-VertexAnimToolset.dll",
+		"VertexAnimToolsetEditor": "UnrealEditor-VertexAnimToolsetEditor.dll"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VertexAnimToolset.cpp.obj": [
+			"VertexAnimProfile.cpp.obj",
+			"VertexAnimToolset.cpp.obj"
+		],
+		"Module.VertexAnimToolset.gen.cpp.obj": [
+			"VertexAnimProfile.gen.cpp.obj",
+			"VertexAnimToolset.init.gen.cpp.obj"
+		]
+	}
+}

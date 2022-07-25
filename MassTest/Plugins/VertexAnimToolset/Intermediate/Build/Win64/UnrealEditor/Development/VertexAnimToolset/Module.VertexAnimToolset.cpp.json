@@ -1,0 +1,35 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\intermediate\\build\\win64\\unrealeditor\\development\\vertexanimtoolset\\module.vertexanimtoolset.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\projects\\ue\\domtest\\masstest\\intermediate\\build\\win64\\masstesteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\intermediate\\build\\win64\\unrealeditor\\development\\vertexanimtoolset\\definitions.vertexanimtoolset.h",
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\source\\vertexanimtoolset\\private\\vertexanimprofile.cpp",
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\source\\vertexanimtoolset\\public\\vertexanimprofile.h",
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\intermediate\\build\\win64\\unrealeditor\\inc\\vertexanimtoolset\\vertexanimprofile.generated.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\canvasrendertarget2d.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\texturerendertarget2d.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\texturerendertarget.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\texturerendertarget.generated.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\texturerendertarget2d.generated.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\canvasrendertarget2d.generated.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetrenderinglibrary.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\kismetrenderinglibrary.generated.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshmodel.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshlodmodel.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshlodimporterdata.h",
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\source\\vertexanimtoolset\\private\\vertexanimtoolset.cpp",
+            "d:\\projects\\ue\\domtest\\masstest\\plugins\\vertexanimtoolset\\source\\vertexanimtoolset\\public\\vertexanimtoolset.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\projects\\public\\interfaces\\ipluginmanager.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\projects\\public\\plugindescriptor.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\projects\\public\\moduledescriptor.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\projects\\public\\custombuildsteps.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\projects\\public\\localizationdescriptor.h",
+            "d:\\programs\\unrealengine\\ue_5.0\\engine\\source\\runtime\\projects\\public\\pluginreferencedescriptor.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
