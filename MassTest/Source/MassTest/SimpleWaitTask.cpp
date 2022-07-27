@@ -51,4 +51,7 @@ EStateTreeRunStatus FSimpleWaitTask::Tick(FStateTreeExecutionContext& Context, c
 		return EStateTreeRunStatus::Running;
 	}
 }
+
+
+
 #pragma optimize( "", on )
