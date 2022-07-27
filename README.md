@@ -2,12 +2,30 @@
 Testing the functionality of the UnrealEngine5 Mass System:
 
 TODO:
+Buggy: Height Tracing disabling doesn't work for Usable Objects.
+Position Snapping: Some agents snap to their end position (LoDOff Processor is off tho?)
 
 
 Documentation:
 
 Current UE5 official documentation, therefore here is some of my observations and understandings of parts from the system:
+The goal is to create a Roller Coaster Tycoon like crowd, which is running around in a park, using objects or targeting POI (points of interests)
+Basic behavior of the agents is done in the State Tree via custom Tasks.
 
+Vertex Texture Animation:
+
+The project uses vertex texture animation to gain a lot of performance from agent animations.
+For simplicity I used the finished ones from https://github.com/Ji-Rath/MassAITesting
+But with correct setup you can use https://github.com/Rexocrates/VAT_Example_Project to generate your own.
+
+Height calculation:
+
+By default currently a simple (hardcoded values for testing) height tracing processor is running in the background since we don't use collision.
+The performance impact is noticeable. It should be disabled when using an object via tagging, which the height processor filters. Atm variable ticktime also impacts the height calculations. Potentially should add a height smoother together with reduced trace frequency.
+
+Navigation Path:
+
+Currently navigation is done through NavMesh path finding from UE5, I use a StateTreeTask which generates the path points upfront, so we dont query paths all the time, and then it simply follows each point until it reaches its target, with a custom navigation processor.
 
 State Tree:
 
