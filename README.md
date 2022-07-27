@@ -4,13 +4,16 @@ Testing the functionality of the UnrealEngine5 Mass System:
 TODO:
 Buggy: Height Tracing disabling doesn't work for Usable Objects.
 Position Snapping: Some agents snap to their end position (LoDOff Processor is off tho?)
+Agent Avoidance: Disable avoidance if they are blocked too long (Planet Coaster approach)
+Reduce force when reenabling avoidance: currently avoidance is disabled for far away LoDs, on reenabling it crowded areas get pushed beyond paths or clip through objects.
+
 
 
 Documentation:
 
 Current UE5 official documentation, therefore here is some of my observations and understandings of parts from the system:
 The goal is to create a Roller Coaster Tycoon like crowd, which is running around in a park, using objects or targeting POI (points of interests)
-Basic behavior of the agents is done in the State Tree via custom Tasks.
+Basic behavior of the agents is done in the State Tree via custom Tasks. 
 
 Vertex Texture Animation:
 
@@ -60,4 +63,22 @@ Here an example for those task in use:
 UDN Developer message about StateTrees:
 
 ![image](https://user-images.githubusercontent.com/8298923/181305036-6a30e571-23f9-437a-ba7f-ffd9253a33f4.png)
+
+
+Showcase:
+
+Simple Park Testscene - 2k agents
+https://user-images.githubusercontent.com/8298923/181391571-799067ff-9d67-4d27-a87c-bf8bf0aabcae.mp4
+
+
+
+7k Agents close
+https://user-images.githubusercontent.com/8298923/181391734-6fc8be5d-acff-4c9d-96ac-4f3290322be8.mp4
+
+
+
+7k Agents far 
+https://user-images.githubusercontent.com/8298923/181391798-0f143902-d865-4548-a2f8-c52ccc9c517c.mp4
+
+
 
