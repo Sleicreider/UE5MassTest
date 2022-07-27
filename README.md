@@ -1,0 +1,45 @@
+# UE5MassTest
+Testing the functionality of the UnrealEngine5 Mass System:
+
+TODO:
+
+
+Documentation:
+
+Current UE5 official documentation, therefore here is some of my observations and understandings of parts from the system:
+
+
+State Tree:
+
+StateTree Tasks are not ticked every frame, they tick once their state is active after EnterState() and then need to be signaled again to receive another tick. 
+For example a Wait Task can schedule delay signals itself, to receive a second tick where it checks for the time.
+
+
+![image](https://user-images.githubusercontent.com/8298923/181303272-9d4b03b1-a3bb-4352-87b0-0f93bddfc86f.png)
+
+In cases where you have a Move Player Task and need to wait for the movement to be finished, 
+you would just have the Task set the location and have a Processor do the calculations and once the processor is done, 
+it can send a Signal to the StateTree again for the Task to receive another tick when it is done.
+
+For example moving to a POI location, you can have a seperate task which checks for a new POI location on EnterState, 
+setting the Move fragment’s Center location and it’s other parametners, which are automatically Processed by a Movement Processor.
+
+![image](https://user-images.githubusercontent.com/8298923/181303591-2e057137-6327-4824-9898-046bdc50004e.png)
+
+
+In a seperate task or just the same tasks’s Tick function you can thecn check if we have reached the location:
+
+![image](https://user-images.githubusercontent.com/8298923/181303684-2df17aeb-b227-4ec6-bd0f-627807643236.png)
+
+The tasks itself doesnt process it every frame so we let our Processor Signal them when the movement is done:
+
+![image](https://user-images.githubusercontent.com/8298923/181304003-9e8aaa3f-8100-4676-8c08-2914a46eb7dc.png)
+
+Here an example for those task in use: 
+
+![image](https://user-images.githubusercontent.com/8298923/181304993-552906f2-645e-4654-bdc0-cfd787b8d266.png)
+
+UDN Developer message about StateTrees:
+
+![image](https://user-images.githubusercontent.com/8298923/181305036-6a30e571-23f9-437a-ba7f-ffd9253a33f4.png)
+
