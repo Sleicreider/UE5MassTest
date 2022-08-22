@@ -15,7 +15,7 @@ Reduce force when reenabling avoidance: currently avoidance is disabled for far 
 
 ## Documentation:
 
-Current UE5 official documentation, therefore here is some of my observations and understandings of parts from the system:  
+Current UE5 official documentation not the best, therefore here is some of my observations and understandings of parts from the system:  
 The goal is to create a Roller Coaster Tycoon like crowd, which is running around in a park, using objects or targeting POI (points of interests)  
 Basic behavior of the agents is done in the State Tree via custom Tasks.   
 
